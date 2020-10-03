@@ -116,5 +116,5 @@ help Select-Object -examples
 Make the Get-Service command show information about specific properties (instead of the default ones it usually shows)
 
 ```powershell
-Select-Service|Select-Object name,starttype,servicetype
+Get-Service|Select-Object name,starttype,servicetype
 ```

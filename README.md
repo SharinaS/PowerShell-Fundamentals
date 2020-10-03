@@ -4,7 +4,7 @@ My collection of cheatsheets, code, notes and resources created while learning P
 
 ## Types of PowerShell
 
-Powershell core – newer. Does not come with Windows by default. Can do nearly all the same stuff. Allows us to run commands on multiple platforms, unlike Powershell. Based on .netcore. Downloadable from GitHub. Can be run on Windows, Linux and MacOS. The future way of working with PS. An open source project. Only has a subset of Windows PS commands, but it’s a large subset. To open in computer, can type “pwsh 
+Powershell core – newer. Does not come with Windows by default. Can do nearly all the same stuff. Allows us to run commands on multiple platforms, unlike Powershell. Based on .netcore. Downloadable from GitHub. Can be run on Windows, Linux and MacOS. The future way of working with PS. An open source project. Only has a subset of Windows PS commands, but it’s a large subset. To open in computer, can type “pwsh" 
 
 Windows Powershell ISE – integrated scripting engine. The original built in editor for editing PS scripts. Comes installed by default.  
 
@@ -14,7 +14,7 @@ Windows Powershell - most popular. Built into Windows. Only on windows; can’t 
 
 PowerShell treats all data as objects.
 
-Can be both text based and objects based. 
+Can be both text based and objects based.
 
 PS commands use objects as their output, which is helpful, since objects properties and methods.
 
@@ -55,6 +55,26 @@ gsv p*
 ### Aliases
 
 Helpful when testing small stuff. Avoid using in your scripts.
+
+## Search For A Command to Do Something
+
+Example: Say, you're looking for runtime dynamic data, particularly a runtime performance counter.
+
+Do a general search for commands that have the word counter in them, with wildcards around the word to indicate that the word can be at the beginning, middle or end of a command.
+
+```powershell
+get-command *counter*
+```
+
+check help for the one that looks promising.
+
+```powershell
+help get-counter
+```
+
+Look at the Syntax section for flags to use.
+
+Try the main command
 
 
 ## Resources
