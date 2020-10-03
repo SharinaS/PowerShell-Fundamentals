@@ -11,7 +11,7 @@
 | `Get-Verb –group <group name found in get-verb command>` | Gives you all the verbs within a group, such as `security` | Core |
 | `Get-Service –name <>*`| Lists all the services whose name starts with a particular letter or word, for example, `–name p*`, or `-name p*, r*` | Windows, Core |
 | `Get-Alias`|All aliases available (shortened command; don't use in your scripts though), such as `Get-Alias -definition *service*` to check the definition of a service | Core |
-| `measure-object` | Use after a pipe to count the number of objects from the prior command. Use for checking number of lines or words in a text file, or checking string size, etc | Core|
+| `Measure-Object` | Use after a pipe to count the number of objects from the prior command. Use for checking number of lines or words in a text file, or checking string size, etc | Core|
 | `Get-History` | Prints the commands you've recently used. |Core|
 | `Clear-History` | Deletes your recent ps history ||
 | `Start-Transcript` | Makes a record of a PS session, and puts it all into a text file - both command line and output. Also records errors. You start and stop the transcription process. ||

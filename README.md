@@ -2,6 +2,18 @@
 
 My collection of cheatsheets, code, notes and resources created while learning PowerShell
 
+## Index
+
+* [Accessing Data from Computer Hardware](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/data-gathering.md)
+* [Arrays and Loops]()
+* [Command Syntax](#Command-Syntax)
+* [Objects](#Objects)
+* [Positional Parameters](#Positional-Parameters)
+* [Quick Command Reference](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/quick_command_reference.md)
+* [Search For A Command to Do Something](#Search-For-A-Command-to-Do-Something)
+* [Types of PowerShell](#Types-of-PowerShell)
+
+
 ## Types of PowerShell
 
 Powershell core – newer. Does not come with Windows by default. Can do nearly all the same stuff. Allows us to run commands on multiple platforms, unlike Powershell. Based on .netcore. Downloadable from GitHub. Can be run on Windows, Linux and MacOS. The future way of working with PS. An open source project. Only has a subset of Windows PS commands, but it’s a large subset. To open in computer, can type “pwsh" 
