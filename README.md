@@ -12,13 +12,50 @@ Windows Powershell - most popular. Built into Windows. Only on windows; can’t 
 
 ## Objects
 
-PowerShell treats all data as objects
+PowerShell treats all data as objects.
+
+Can be both text based and objects based. 
+
+PS commands use objects as their output, which is helpful, since objects properties and methods.
+
+Used with pipes, the object that is outputted from one command is passed to the next command.
+
+```powershell
+Get-Service|Select-Object name,starttype,servicetype|more
+```
 
 ## Command Syntax
 
 Verb-Noun – all commands should be formated this way. 
 
 Parameters – used to pass info into the command. All prefixed with a “-”.
+
+### Positional Parameters
+
+It expects in the first position that the "name" parameter will appear. This means that you can shorten commands for named parameters.
+
+Instead of:
+
+```powershell
+get-service -name p*
+```
+
+You can simply write:
+
+```powershell
+get-service p*
+```
+
+Or, if you're also using Aliases:
+
+```powershell
+gsv p*
+```
+
+### Aliases
+
+Helpful when testing small stuff. Avoid using in your scripts.
+
 
 ## Resources
 
