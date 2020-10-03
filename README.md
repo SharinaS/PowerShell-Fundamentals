@@ -5,7 +5,7 @@ My collection of cheatsheets, code, notes and resources created while learning P
 ## Index
 
 * [Accessing Data from Computer Hardware](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/data-gathering.md)
-* [Arrays and Loops]()
+* [Arrays](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/arrays.md)
 * [Command Syntax](#Command-Syntax)
 * [Objects](#Objects)
 * [Positional Parameters](#Positional-Parameters)
