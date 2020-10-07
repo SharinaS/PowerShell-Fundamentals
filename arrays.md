@@ -140,6 +140,10 @@ Or, strings only:
 [string[]] $flowers = "daffodil", "roses", "bleeding heart"
 ```
 
+## ArrayLists
+
+A collection - uses the .Net framework. May not be used as much in more complex code.
+
 ## ArrayObjects
 
 ### Make an array of objects.
@@ -190,4 +194,4 @@ $shoes.Type
 
 ## Resources
 
-* [Varonis Powershell Blog](varonis.com/blog/powershell-array)
+* [Varonis Powershell Blog](varonis.com/blog/powershell-array/#add-values)
