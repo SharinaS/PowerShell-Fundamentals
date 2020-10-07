@@ -8,9 +8,11 @@ My collection of cheatsheets, code, notes and resources created while learning P
 * [Arrays](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/arrays.md)
 * [ArrayObjects](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/arrays.md)
 * [Command Syntax](#Command-Syntax)
+* [Iterate Over CSV Files]()
 * [Objects](#Objects)
 * [Positional Parameters](#Positional-Parameters)
 * [Quick Command Reference](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/quick_command_reference.md)
+* [Read Files]()
 * [Search For A Command to Do Something](#Search-For-A-Command-to-Do-Something)
 * [Types of PowerShell](#Types-of-PowerShell)
 
@@ -92,3 +94,4 @@ Try the main command
 ## Resources
 
 * Udemy course – "Windows PowerShell in less than 2 hours – 15 hands on demos," taken in October 2020.
+* [The Big Book of PowerShell Gotchas](https://devops-collective-inc.gitbook.io/the-big-book-of-powershell-gotchas/)
