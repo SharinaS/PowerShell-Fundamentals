@@ -8,11 +8,11 @@ My collection of cheatsheets, code, notes and resources created while learning P
 * [Arrays](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/arrays.md)
 * [ArrayObjects](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/arrays.md)
 * [Command Syntax](#Command-Syntax)
-* [Iterate Over CSV Files]()
+* [Iterate Over CSV Files](https://github.com/SharinaS/PowerShell-Fundamentals/tree/main/iterate-over-csv-files)
 * [Objects](#Objects)
 * [Positional Parameters](#Positional-Parameters)
 * [Quick Command Reference](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/quick_command_reference.md)
-* [Read Files]()
+* [Read Files](https://github.com/SharinaS/PowerShell-Fundamentals/tree/main/read-write-files)
 * [Search For A Command to Do Something](#Search-For-A-Command-to-Do-Something)
 * [Types of PowerShell](#Types-of-PowerShell)
 
