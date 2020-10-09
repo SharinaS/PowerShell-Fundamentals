@@ -28,6 +28,12 @@ I will be working with EC2 and S3, so I ran the following command:
 Install-AWSToolsModule AWS.Tools.EC2, AWS.Tools.S3 -CleanUp
 ```
 
+If you need to search for an AMI at some point, also install the SimpleSystemsManagement module
+
+```powershell
+Install-AWSToolsModule AWS.Tools.SimpleSystemsManagement -CleanUp
+```
+
 ### Test the connection
 
 If you have an AWS profile that is not set as default, you will need to use the flag `-ProfileName`, like I do.
@@ -40,3 +46,5 @@ Get-S3Bucket -ProfileName <<Your AWS Profile>>
 
 ## Resources
 
+* [Make a Key-Pair, (to make an instance)](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-ec2-launch.html)
+* [Make an EC2 Instance with PowerShell](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-ec2-launch.html)
