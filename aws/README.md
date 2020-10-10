@@ -48,3 +48,5 @@ Get-S3Bucket -ProfileName <<Your AWS Profile>>
 
 * [Make a Key-Pair, (to make an instance)](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-ec2-launch.html)
 * [Make an EC2 Instance with PowerShell](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-ec2-launch.html)
+* [Get an AWS AMI Id](https://docs.aws.amazon.com/zh_cn/powershell/latest/reference/items/Get-SSMLatestEC2Image.html)
+* [Get metadata about an AWS instance with PowerShell](https://docs.aws.amazon.com/powershell/latest/reference/items/Get-EC2InstanceMetadata.html)
