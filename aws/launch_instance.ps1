@@ -3,21 +3,23 @@ $latest_windows_ami_id = Get-SSMLatestEC2Image -Path ami-windows-latest -ImageNa
 
 # Count # lines (instances) in csv file and set to a variable 
 $old_instances = Get-Content -Path instances_sample.csv
-$old_instances_number = $old_instances.Count
+$number_old_instances = $old_instances.Count
 
-# Make an empty array of length instance_numb called new_instances_array
+# Make an empty array of length instance_numb called new_instances_array, which will soon hold the new instance ids.
+$new_instances_array = New-Object string[] $number_old_instances
+# alternatively, if a regular PS is desired, can do this: $arr = @($null) * $number_old_instances
 
-# While i is greater than or equal to instance_numb, launch a new instance, store the instane id in the new_instances_array, and reduce count of i by 1. 
-# $a = 1,2,3,4,5
-# $x = 0
-# while ($x -lt $a.Count)
-# {
-#     #add 5 to the array
-#     $a[$x]+ 1
-#     $x++    
-#     "`$x is now $x"
-# }
+$i = $number_old_instances
+# While i is greater than or equal to instance_number,
+while ($i -ge 0)
+{
+    #launch a new instance
+    #store the instance id in the new_instances_array
+    #and reduce count of i by 1
+    $x--   
+}
 
 ######################
 $latest_windows_ami_id
-$old_instances_number
+$number_old_instances
+$new_instances_array.length
