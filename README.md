@@ -93,7 +93,15 @@ Try the main command
 
 MORE CONTENT PENDING
 
+## Loops
+
+### While Loops
+
+See PowerShell file titled while-loops.ps1 for examples.
+
+
 ## Resources
 
 * Udemy course – "Windows PowerShell in less than 2 hours – 15 hands on demos," taken in October 2020.
 * [The Big Book of PowerShell Gotchas](https://devops-collective-inc.gitbook.io/the-big-book-of-powershell-gotchas/)
+* [PowerShell and while loops](https://devblogs.microsoft.com/scripting/powershell-looping-using-while/)
