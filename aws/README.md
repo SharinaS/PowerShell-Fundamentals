@@ -44,6 +44,17 @@ List out all the S3 buckets in your AWS account:
 Get-S3Bucket -ProfileName <<Your AWS Profile>>
 ```
 
+## Launch an Instance
+
+When you launch an instance, the following information categories are returned:
+
+```powershell
+Instances     : {my-key-pair-name}
+OwnerId       : 123456789012
+RequesterId   : 
+ReservationId : r-123abc123a1234ab
+```
+
 ## Resources
 
 * [Make a Key-Pair, (to make an instance)](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-ec2-launch.html)
