@@ -1,5 +1,5 @@
 # ignore these files
-aws/launch_instance.ps1
+aws/launch_EC2_instance.ps1
 aws/make_security_group.ps1
 aws/new_instances.csv
 
