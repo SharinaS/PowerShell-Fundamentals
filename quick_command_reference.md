@@ -118,3 +118,5 @@ Make the Get-Service command show information about specific properties (instead
 ```powershell
 Get-Service|Select-Object name,starttype,servicetype
 ```
+
+
