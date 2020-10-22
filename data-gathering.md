@@ -1,4 +1,4 @@
-# Using PowerShell To Gether Info About Computer
+# Using PowerShell To Get Info About Computer
 
 ## Accessing Data from Computer Hardware
 
