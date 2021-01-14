@@ -2,7 +2,7 @@
 
 My collection of cheatsheets, code, notes and resources created while learning PowerShell
 
-[[_TOC]]
+[[_TOC_]]
 
 ## Index
 
