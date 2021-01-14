@@ -2,6 +2,8 @@
 
 My collection of cheatsheets, code, notes and resources created while learning PowerShell
 
+[[_TOC]]
+
 ## Index
 
 * [Accessing Data from Computer Hardware](https://github.com/SharinaS/PowerShell-Fundamentals/blob/main/data-gathering.md)
