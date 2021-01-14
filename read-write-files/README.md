@@ -7,7 +7,7 @@ Navigate into the "read-write-files" directory.
 Run the following command in your powershell command line:
 
 ```powershell
-./mess-with-file.ps1
+./mess-with-files.ps1
 ```
 
 Resources
